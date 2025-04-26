@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaySphere</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@300;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assest/css/bootstrap.css">
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assest/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Why Should I Pay Bills Online?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about.html">Who Are We Behind Your Bills?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="privacy.html">Is My Bill Payment Secure?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Need Help Paying a Bill?</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <section class="py-5 bg-white">
+        <div class="container">
+          <div class="text-center mb-4">
+            <h2 class="fw-bold text-primary">Need Help Paying a Bill?</h2>
+            <p class="text-muted">Reach out to us if you're facing issues with any bill. We're here to assist you—quickly and securely.</p>
+          </div>
+      
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Full Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="billType" class="form-label">Type of Bill</label>
+                  <select class="form-select" id="billType" required>
+                    <option value="">Choose...</option>
+                    <option>Electricity</option>
+                    <option>Water</option>
+                    <option>Internet</option>
+                    <option>Mobile</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea class="form-control" id="message" rows="4" placeholder="Describe your issue..." required></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary px-4">Submit Request</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+    <footer>
+        <p>&copy; 2025 PaySphere. All rights reserved.</p>
+    </footer>
+
+    <script src="assest/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
